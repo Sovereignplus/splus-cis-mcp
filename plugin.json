@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sovereign-plus",
+  "version": "1.0.0",
+  "description": "S+ CIS & Right to Work: UK Construction Industry Scheme and right to work answers for contractors, through Sovereign Plus's read-only remote MCP server. GOV.UK-sourced estimates, not tax advice.",
+  "author": {
+    "name": "Sovereign Plus (S+)",
+    "email": "info@sovereignplus.com",
+    "url": "https://sovereignplus.com/"
+  },
+  "homepage": "https://sovereignplus.com/",
+  "repository": "https://github.com/Sovereignplus/splus-cis-mcp",
+  "license": "MIT",
+  "keywords": [
+    "cis",
+    "construction-industry-scheme",
+    "hmrc",
+    "uk",
+    "right-to-work",
+    "contractors",
+    "subcontractors",
+    "mcp"
+  ],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "splus-cis": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
