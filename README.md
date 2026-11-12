@@ -1,6 +1,6 @@
 # S+ CIS & Right to Work
 
-UK Construction Industry Scheme (CIS) and right to work answers for contractors who pay subcontractors, inside your AI assistant. Published by Sovereign Plus (S+), a UK CIS bureau.
+UK Construction Industry Scheme (CIS) and right to work answers for contractors who pay subcontractors, inside your AI assistant. Published by Sovereign Plus (S+), a UK CIS Payroll Company.
 
 This repository is the public listing for the S+ remote MCP server. It holds an agent skill and the plugin config only; the server itself is hosted by S+.
 
